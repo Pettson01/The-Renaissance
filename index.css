@@ -45,7 +45,7 @@ body{
   margin-right: 45px;
   margin-top: 25px;
   margin-bottom: 15px;
-  border-radius: 13px;
+  border-radius: 10px;
   text-align: center;
   font-size: 20px;
 }
@@ -71,4 +71,9 @@ body{
 #sidebar a:hover{
   background-color: grey;
   color: white;
+}
+
+#sidebar h1{
+  color: white;
+  text-align: center;
 }
