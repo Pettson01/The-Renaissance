@@ -7,3 +7,5 @@ röd färg: #ad001a
 grå färg: #a89e9a
 
 brun färg: #794F29
+
+font-family: CharpentierRenRed-Oblique;
