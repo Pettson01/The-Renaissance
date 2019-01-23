@@ -72,3 +72,8 @@ body{
   background-color: grey;
   color: white;
 }
+
+#sidebar h1{
+  color: white;
+  text-align: center;
+}
