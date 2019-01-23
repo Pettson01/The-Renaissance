@@ -4,7 +4,8 @@
 }
 
 body{
-  background-image: url(https://previews.123rf.com/images/slena/slena0904/slena090400143/4768422-decorative-renaissance-background.jpg):
+  background-image:
+  url(https://us.123rf.com/450wm/tukkki/tukkki1301/tukkki130100025/17125799-lineair-patroon-met-zilveren-lijnen-website-achtergrond-of-vakantie-inpakpapier-of-elegante-huwelijk.jpg?ver=6);
 }
 
 #logo{
@@ -40,7 +41,7 @@ body{
 #body{
   width: 60vw;
   height: 79vh;
-  background-color: red;
+  background-color: #794F29;
   float: right;
   margin-left: 10px;
   margin-right: 45px;
