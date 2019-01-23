@@ -29,9 +29,11 @@ body{
   height: 83vh;
   background-color: #ad001a;
   float: left;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
+  border: 1.5px solid darkgreen;
+  background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
 }
 
 #body{
