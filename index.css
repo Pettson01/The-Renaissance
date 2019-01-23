@@ -66,6 +66,8 @@ body{
   display: block;
   border-bottom: 2px solid lightblue;
   border-radius: 10px;
+  margin: 8px;
+  margin-bottom: 10px;
 }
 
 #sidebar a:hover{
