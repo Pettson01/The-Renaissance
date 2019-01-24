@@ -5,18 +5,18 @@
 
 body{
   background-image:
-  url(https://us.123rf.com/450wm/tukkki/tukkki1301/tukkki130100025/17125799-lineair-patroon-met-zilveren-lijnen-website-achtergrond-of-vakantie-inpakpapier-of-elegante-huwelijk.jpg?ver=6);
+  url();
 }
 
 #logo{
   width: 100vw;
   height: 10vh;
   background-color: #a89e9a;
-  border-radius: 7px;
   font-size: 69px;
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  background-image: url(https://www.class-central.com/report/wp-content/uploads/2015/05/Jesus-in-Scripture-and-Tradition.jpg);
 }
 
 #header{
