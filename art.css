@@ -26,6 +26,14 @@ body{
   float: right;
 }
 
+#pic{
+  width: 10vw;
+  height: 10vh;
+  float: right;
+
+
+}
+
 #sidebar{
   width: 10vw;
   height: 83vh;
