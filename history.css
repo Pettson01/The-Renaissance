@@ -38,14 +38,14 @@ body{
 }
 
 #body{
-  width: 80vw;
-  height: 70vh;
+  width: 82vw;
+  height: 75vh;
   background-color: #794F29;
   float: right;
-  margin-left: 10px;
-  margin-right: 70px;
-  margin-top: 65px;
-  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-top: 45px;
+  margin-bottom: 5px;
   border-radius: 5px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
@@ -55,6 +55,10 @@ body{
   font-size: 40px;
   margin-top: 20px;
   margin-right: 170px;
+}
+
+#body p{
+  
 }
 
 #footer{
