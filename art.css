@@ -9,7 +9,7 @@ body{
 }
 
 #logo{
-  width: 100vw;
+  width: 98.9vw;
   height: 10vh;
   background-color: #a89e9a;
   border-radius: 7px;
@@ -71,7 +71,7 @@ body{
   width: 50vw;
   height: 40vh;
   background-color: #794F29;
-  float: right;
+  float:right ;
   margin-top: 25px;
   text-align: center;
   border-radius: 10px;
@@ -81,7 +81,7 @@ body{
   width: 50vw;
   height: 40vh;
   background-color: #794F29;
-  float: right;
+  float:right;
   margin-top: 25px;
   text-align: center;
   border-radius: 10px;
