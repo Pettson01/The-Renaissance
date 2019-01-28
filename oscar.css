@@ -17,6 +17,8 @@ body{
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  background-image: url('header-picture.png');
+  background-size: cover;
 }
 
 #header{
