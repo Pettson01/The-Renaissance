@@ -38,17 +38,23 @@ body{
 }
 
 #body{
-  width: ;
-  height: ;
+  width: 80vw;
+  height: 70vh;
   background-color: #794F29;
   float: right;
-  margin-left: ;
-  margin-right: ;
-  margin-top: ;
-  margin-bottom: ;
-  border-radius: ;
+  margin-left: 10px;
+  margin-right: 70px;
+  margin-top: 65px;
+  margin-bottom: 10px;
+  border-radius: 5px;
   text-align: center;
-  font-size: ;
+  font-family: CharpentierRenRed-Oblique;
+}
+
+#body h2{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-right: 170px;
 }
 
 #footer{
