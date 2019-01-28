@@ -61,7 +61,8 @@ body{
   background-color: #794F29;
   float: right;
   margin-top: 25px;
-
+  text-align: center;
+  border-radius: 10px;
 }
 
 #footer{
