@@ -5,7 +5,7 @@
 
 body{
   background-image:
-  url(https://img.freepik.com/free-vector/damask-seamless-pattern-background_1217-821.jpg?size=338&ext=jpg);
+  url(https://us.123rf.com/450wm/tukkki/tukkki1301/tukkki130100025/17125799-lineair-patroon-met-zilveren-lijnen-website-achtergrond-of-vakantie-inpakpapier-of-elegante-huwelijk.jpg?ver=6);
 }
 
 #logo{
@@ -26,14 +26,6 @@ body{
   float: right;
 }
 
-#pic{
-  width: 10vw;
-  height: 10vh;
-  float: right;
-
-
-}
-
 #sidebar{
   width: 10vw;
   height: 83vh;
@@ -50,8 +42,8 @@ body{
 }
 
 #body{
-  width: 30vw;
-  height: 80vh;
+  width: 60vw;
+  height: 79vh;
   background-color: #794F29;
   float: right;
   margin-left: 10px;
@@ -61,16 +53,6 @@ body{
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
-}
-
-#text{
-  width: 50vw;
-  height: 40vh;
-  background-color: #794F29;
-  float: right;
-  margin-top: 25px;
-  text-align: center;
-  border-radius: 10px;
 }
 
 #footer{
