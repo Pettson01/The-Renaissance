@@ -43,7 +43,7 @@ body{
 
 #body{
   width: 30vw;
-  height: 50vh;
+  height: 80vh;
   background-color: #794F29;
   float: right;
   margin-left: 10px;
@@ -61,6 +61,7 @@ body{
   background-color: #794F29;
   float: right;
   margin-top: 25px;
+
 }
 
 #footer{
