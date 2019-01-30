@@ -77,6 +77,8 @@ background-color: #794F29;
 float: right;
 margin-top: 25px;
 margin-bottom: 20px;
+border-radius: 10px;
+border-color: #794F29;
 }
 
 #PIC4 img{
@@ -84,6 +86,7 @@ margin-bottom: 20px;
   height: 43vh;
   float: right;
   border-radius: 10px;
+  border-color: #794F29;
 }
 
 
@@ -136,6 +139,7 @@ margin-bottom: 20px;
   text-align: center;
   border-radius: 10px;
   margin-right: 75px;
+  border-color: #794F29;
 }
 
 #bild2 img{
