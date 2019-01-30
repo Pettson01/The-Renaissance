@@ -117,6 +117,7 @@ border-color: #794F29;
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
+  font-family: CharpentierRenRed-Oblique;
 }
 
 #text{
@@ -127,6 +128,7 @@ border-color: #794F29;
   margin-top: 25px;
   text-align: center;
   border-radius: 10px;
+  font-family: CharpentierRenRed-Oblique;
 }
 
 
@@ -157,6 +159,7 @@ border-color: #794F29;
   margin-top: 25px;
   border-radius: 10px;
   text-align: center;
+  font-family: CharpentierRenRed-Oblique;
 
 }
 
@@ -169,7 +172,9 @@ border-color: #794F29;
   text-align: center;
   border-radius: 10px;
   margin-right: 41px;
+  font-family: CharpentierRenRed-Oblique;
 }
+
 
 #footer{
   width: 100vw;
