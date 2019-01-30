@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: url();
+  background-image: url('background1.jpg');
 }
 
 #logo{
@@ -30,7 +30,7 @@ body{
   height: 83vh;
   background-color: #ad001a;
   float: left;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-top: 10px;
   margin-left: 10px;
   border: 1.5px solid darkgreen;
@@ -49,7 +49,8 @@ body{
   margin-right: 45px;
   margin-top: 30px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
   background-image: url('historybackgrounds.jpg');
@@ -57,7 +58,7 @@ body{
 
 #body h2{
   font-size: 40px;
-  margin-top: 3px;
+  margin-top: 10px;
   margin-right: 170px;
 }
 
