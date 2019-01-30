@@ -49,12 +49,12 @@ body{
   border-radius: 5px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('historybackground.jpg');
+  background-image: url('historybackgrounds.jpg');
 }
 
 #body h2{
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 7px;
   margin-right: 170px;
 }
 
