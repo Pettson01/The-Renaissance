@@ -17,7 +17,8 @@ body{
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
   background-image: url('Great_coat_of_arms_of_Sweden.svg.png');
-  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 #header{
