@@ -5,20 +5,19 @@
 
 body{
   background-image:
-  url('Backgroundosc.jpg');
+  url('backgroundosc.jpg');
+  background-size: auto;
 }
 
 #logo{
   width: 100vw;
   height: 10vh;
-  background-color: #a89e9a;
   border-radius: 7px;
   font-size: 69px;
-  color: black;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('header-picture.png');
-  background-size: cover;
+  background-image: url('Great_coat_of_arms_of_Sweden.svg.png');
+  Background-size: cover;
 }
 
 #header{
