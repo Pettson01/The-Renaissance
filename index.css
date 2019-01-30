@@ -38,7 +38,20 @@ body{
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: sticky;
-  top: 0
+  top: 0;
+}
+
+#picture{
+  width: 20vw;
+  height: 79vh;
+  background-color: #ad001a;
+  float: right;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 20px;
+  border: 1.5px solid darkgreen;
+  background-image: url(https://news.artnet.com/app/news-upload/2014/07/Mona_Lisa.jpg);
+  background-position: center;
 }
 
 #body{
@@ -48,7 +61,7 @@ body{
   float: right;
   margin-left: 10px;
   margin-right: 45px;
-  margin-top: 25px;
+  margin-top: 27px;
   margin-bottom: 15px;
   border-radius: 10px;
   text-align: center;
