@@ -5,8 +5,8 @@
 
 body{
   background-image:
-  url('Backgroundosc.png');
-  background-size: cover;
+  url('backgroundosc.jpg');
+  background-size: auto;
 }
 
 #logo{
@@ -16,6 +16,8 @@ body{
   font-size: 69px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  background-image: url('Great_coat_of_arms_of_Sweden.svg.png');
+  background-size: cover;
 }
 
 #header{
