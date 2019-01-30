@@ -12,7 +12,6 @@ body{
   width: 98.9vw;
   height: 10vh;
   background-color: #a89e9a;
-  border-radius: 7px;
   font-size: 69px;
   color: white;
   text-align: center;
@@ -70,6 +69,24 @@ margin-left: 10px;
   border-color: #794f29;
   border-style: solid;
 }
+
+#PIC4{
+width: 30vw;
+height: 43vh;
+background-color: #794F29;
+float: right;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+#PIC4 img{
+  width: 30vw;
+  height: 43vh;
+  float: right;
+  border-radius: 10px;
+}
+
+
 #sidebar{
   width: 10vw;
   height: 83vh;
@@ -82,7 +99,7 @@ margin-left: 10px;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: sticky;
-  top: 0
+  top: 0;
 }
 
 #body{
@@ -127,14 +144,27 @@ margin-left: 10px;
   border-radius: 10px;
 }
 
+#bodyman{
+  width: 25vw;
+  height: 43vh;
+  background-color: #794F29;
+  float: right;
+  margin-right: 10px;
+  margin-top: 25px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
 #body2{
-  width: 30vw;
+  width: 44vw;
   height: 43vh;
   background-color: #794F29;
   float:right;
   margin-top: 25px;
   text-align: center;
   border-radius: 10px;
+  margin-right: 41px;
 }
 
 #footer{
