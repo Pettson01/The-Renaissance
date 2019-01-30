@@ -14,9 +14,11 @@ body{
   background-color: #a89e9a;
   border-radius: 7px;
   font-size: 69px;
-  color: white;
+  color: black;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  background-image: url('header-picture.png');
+  background-size: cover;
 }
 
 #header{

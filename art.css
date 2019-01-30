@@ -5,11 +5,11 @@
 
 body{
   background-image:
-  url(https://us.123rf.com/450wm/tukkki/tukkki1301/tukkki130100025/17125799-lineair-patroon-met-zilveren-lijnen-website-achtergrond-of-vakantie-inpakpapier-of-elegante-huwelijk.jpg?ver=6);
+  url(https://img.freepik.com/free-vector/damask-seamless-pattern-background_1217-821.jpg?size=338&ext=jpg);
 }
 
 #logo{
-  width: 100vw;
+  width: 98.9vw;
   height: 10vh;
   background-color: #a89e9a;
   border-radius: 7px;
@@ -24,6 +24,22 @@ body{
   height: 3vh;
   background-color: #794F29;
   float: right;
+}
+
+#pic img{
+  width: 25vw;
+  height: 50vh;
+  margin-left: 227px;
+  margin-top: 25px;
+  border-radius: 30px;
+  border-color: #794f29;
+  border-style: solid;
+<<<<<<< HEAD
+=======
+  float: right;
+>>>>>>> 52e5ee36f94b39bcc1423609aa14469d9ca7b46e
+
+
 }
 
 #sidebar{
@@ -43,7 +59,7 @@ body{
 
 #body{
   width: 30vw;
-  height: 80vh;
+  height: 150vh;
   background-color: #794F29;
   float: right;
   margin-left: 10px;
@@ -59,7 +75,17 @@ body{
   width: 50vw;
   height: 40vh;
   background-color: #794F29;
-  float: right;
+  float:right ;
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#body2{
+  width: 50vw;
+  height: 40vh;
+  background-color: #794F29;
+  float:right;
   margin-top: 25px;
   text-align: center;
   border-radius: 10px;

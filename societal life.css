@@ -4,18 +4,19 @@
 }
 
 body{
-  background-image: url();
+  background-image:
+  url(https://us.123rf.com/450wm/tukkki/tukkki1301/tukkki130100025/17125799-lineair-patroon-met-zilveren-lijnen-website-achtergrond-of-vakantie-inpakpapier-of-elegante-huwelijk.jpg?ver=6);
 }
 
 #logo{
   width: 100vw;
   height: 10vh;
   background-color: #a89e9a;
+  border-radius: 7px;
   font-size: 69px;
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url(https://www.class-central.com/report/wp-content/uploads/2015/05/Jesus-in-Scripture-and-Tradition.jpg);
 }
 
 #header{
@@ -35,39 +36,23 @@ body{
   margin-left: 10px;
   border: 1.5px solid darkgreen;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0
 }
 
 #body{
-  width: 82vw;
-  height: 75vh;
+  width: 60vw;
+  height: 79vh;
   background-color: #794F29;
   float: right;
-  margin-left: 5px;
-  margin-right: 50px;
-  margin-top: 45px;
-  margin-bottom: 5px;
-  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 10px;
   text-align: center;
-  font-family: CharpentierRenRed-Oblique;
-  background-image: url('historybackgrounds.jpg');
-}
-
-#body h2{
-  font-size: 40px;
-  margin-top: 7px;
-  margin-right: 170px;
-}
-
-#body p{
-<<<<<<< HEAD
-  
-=======
   font-size: 20px;
-  float: left;
-  margin-top: 10px;
-  margin-right: 250px;
-  margin-left: 30px;
->>>>>>> 52e5ee36f94b39bcc1423609aa14469d9ca7b46e
 }
 
 #footer{
