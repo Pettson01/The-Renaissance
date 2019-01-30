@@ -13,6 +13,13 @@
   font-family: CharpentierRenRed-Oblique;
 }
 
+#logo2{
+  width: 100vw;
+  height: 3vh;
+  background-color: #794F29;
+  border-radius: 10px;
+}
+
 #header{
   width: 100vw;
   height: 3vh;
