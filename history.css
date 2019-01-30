@@ -59,15 +59,11 @@ body{
 }
 
 #body p{
-<<<<<<< HEAD
-  
-=======
   font-size: 20px;
   float: left;
   margin-top: 10px;
   margin-right: 250px;
   margin-left: 30px;
->>>>>>> 52e5ee36f94b39bcc1423609aa14469d9ca7b46e
 }
 
 #footer{
