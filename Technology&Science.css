@@ -67,6 +67,8 @@
 #sidebar h1{
   color: white;
   text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
 }
 
 #text1{
