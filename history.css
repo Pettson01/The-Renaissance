@@ -36,12 +36,25 @@ body{
   margin-left: 10px;
   border: 1.5px solid darkgreen;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 #body{
+  width: 82vw;
+  height: 80vh;
+  background-color: #794F29;
+  float: right;
+  margin-left: 5px;
+  margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  text-align: center;
+  font-family: CharpentierRenRed-Oblique;
+  background-image: url('historybackgroundss.jpg');
+}
+
+#humanism{
   width: 82vw;
   height: 80vh;
   background-color: #794F29;
@@ -54,7 +67,7 @@ body{
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('historybackgroundss.jpg');
+  background-image: url('');
 }
 
 #body h2{
@@ -69,7 +82,7 @@ body{
   margin-top: 5px;
   margin-right: 250px;
   margin-left: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 #footer{
