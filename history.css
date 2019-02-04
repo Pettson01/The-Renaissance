@@ -54,6 +54,21 @@ body{
   background-image: url('historybackgroundss.jpg');
 }
 
+#body h2{
+  font-size: 40px;
+  margin-top: 15px;
+  margin-right: 170px;
+}
+
+#body p{
+  font-size: 22px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 250px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
 #humanism{
   width: 82vw;
   height: 80vh;
@@ -70,16 +85,16 @@ body{
   background-image: url('');
 }
 
-#body h2{
+#humanism h2{
   font-size: 40px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 170px;
 }
 
-#body p{
+#humanism p{
   font-size: 22px;
   float: left;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-right: 250px;
   margin-left: 30px;
   margin-bottom: 15px;
