@@ -16,6 +16,7 @@
   font-size: 69px;
   text-align: center;
   color: white;
+  padding-bottom: 12px;
 }
 
 #logo2{
@@ -73,26 +74,42 @@
 
 #text1{
   width: 50vw;
-  height: 50vh;
+  height: 35vh;
   background-color: #794F29;
   border-radius: 10px;
   float: left;
   margin-top: 25px;
+  font-size: 20px;
 }
 
-#bild1{
-  width: 20vw;
-  height: 65vh;
-  background-color: #794F29;
-  margin-top: 25px;
-  border-radius: 10px;
-  float: right;
-  margin-right: 90px;
-  background-image: url(Galileo_moon.png);
-  background-size: cover;
-}
 
 #text1 h1{
   font-size: 40px;
   margin: 10px;
+}
+
+#text1 p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#bild1{
+  width: 33vw;
+  height: 35vh;
+  background-color: #794F29;
+  border-radius: 10px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+  background-image: url(boi.jpg);
+  background-size: cover;
+}
+
+#text2{
+  width: 30vw;
+  height: 40vh;
+  background-color: #794F29;
+  float: left;
+  margin-top: 20px;
+  border-radius: 10px;
 }
