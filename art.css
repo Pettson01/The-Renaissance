@@ -17,6 +17,7 @@ body{
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  background-image: url(https://renaissance.yale.edu/sites/default/files/images/banner_raphael2.jpg);
 }
 
 #header{
@@ -117,7 +118,7 @@ border-color: #794F29;
   margin-bottom: 15px;
   border-radius: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 27px;
   font-family: CharpentierRenRed-Oblique;
 }
 
@@ -130,6 +131,7 @@ border-color: #794F29;
   text-align: center;
   border-radius: 10px;
   font-family: CharpentierRenRed-Oblique;
+  font-size: 19px;
 }
 
 
@@ -161,6 +163,7 @@ border-color: #794F29;
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  font-size: 23px;
 
 }
 
@@ -174,6 +177,7 @@ border-color: #794F29;
   border-radius: 10px;
   margin-right: 41px;
   font-family: CharpentierRenRed-Oblique;
+  font-size: 23px;
 }
 
 
