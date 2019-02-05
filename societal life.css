@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: CharpentierRenRed-Oblique;
 }
 
 body{
@@ -41,8 +42,22 @@ body{
   top: 0
 }
 
-#body{
-  width: 60vw;
+#text1{
+  width: 42vw;
+  height: 93vh;
+  background-color: #794F29;
+  float: right;
+  margin-left: 10px;
+  margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#text2{
+  width: 33vw;
   height: 93vh;
   background-color: #794F29;
   float: right;
@@ -83,6 +98,8 @@ body{
 #sidebar h1{
   color: white;
   text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
 }
 
 @font-face {

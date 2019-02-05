@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: CharpentierRenRed-Oblique;
 }
 
 body{
@@ -47,27 +48,59 @@ body{
   float: right;
   margin-left: 5px;
   margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  text-align: center;
+  font-family: CharpentierRenRed-Oblique;
+  background-image: url('historybackgroundss.jpg');
+}
+
+#body h2{
+  font-size: 40px;
+  margin-top: 15px;
+  margin-right: 170px;
+}
+
+#body p{
+  font-size: 22px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 250px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+#humanism{
+  width: 82vw;
+  height: 80vh;
+  background-color: #794F29;
+  float: right;
+  margin-left: 5px;
+  margin-right: 45px;
   margin-top: 30px;
   margin-bottom: 5px;
   border: 2px solid darkgreen;
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('historybackgrounds.jpg');
+  background-image: url('');
 }
 
-#body h2{
+#humanism h2{
   font-size: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 170px;
 }
 
-#body p{
-  font-size: 20px;
+#humanism p{
+  font-size: 22px;
   float: left;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 250px;
   margin-left: 30px;
+  margin-bottom: 15px;
 }
 
 #footer{
@@ -98,6 +131,8 @@ body{
 #sidebar h1{
   color: white;
   text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
 }
 
 @font-face {
