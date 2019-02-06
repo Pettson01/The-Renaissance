@@ -13,24 +13,22 @@
   width: 100vw;
   height: 10vh;
   background-color: #a89e9a;
+  float: right;
   font-size: 69px;
   text-align: center;
+  font-family: CharpentierRenRed-Oblique;
   color: white;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
+
 
 #logo2{
   width: 100vw;
   height: 3vh;
   background-color: #794F29;
-}
-
-#header{
-  width: 100vw;
-  height: 3vh;
-  background-color: #794F29;
   float: right;
 }
+
 
 #sidebar{
   width: 10vw;
@@ -73,7 +71,7 @@
 }
 
 #text1{
-  width: 50vw;
+  width: 45vw;
   height: 35vh;
   background-color: #794F29;
   border-radius: 10px;
@@ -100,16 +98,91 @@
   border-radius: 10px;
   float: right;
   margin-top: 25px;
-  margin-right: 10px;
   background-image: url(boi.jpg);
   background-size: cover;
+  margin-right: 40px;
 }
 
 #text2{
-  width: 30vw;
-  height: 40vh;
+  width: 40vw;
+  height: 50vh;
   background-color: #794F29;
   float: left;
-  margin-top: 20px;
+  margin-top: 70px;
   border-radius: 10px;
+  font-size: 20px;
 }
+
+
+#text2 h1{
+  font-size: 40px;
+  margin: 10px;
+}
+
+#text2 p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#bild2{
+  float: right;
+  width: 17vw;
+  height: 50vh;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 70px;
+  background-image: url(Galileo_moon.png);
+  margin-right: 40px;
+  background-size: cover;
+}
+
+#bild3{
+  float: right;
+  width: 17vw;
+  height: 50vh;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-right: 40px;
+  background-image: url(sid.jpg);
+  background-size: cover;
+}
+
+
+/*
+#test1{
+  width: 20vw;
+  height: 20vh;
+  border: black 10px solid;
+  background-color: green;
+}
+
+#test2{
+  width: 20vw;
+  height: 20vh;
+  border: black 10px solid;
+  background-color: green;
+}
+
+
+#test3{
+  width: 20vw;
+  height: 20vh;
+  border: black 10px solid;
+  background-color: green;
+}
+
+#test4{
+  width: 20vw;
+  height: 20vh;
+  border: black 10px solid;
+  background-color: green;
+}
+
+#test5{
+  width: 20vw;
+  height: 20vh;
+  border: black 10px solid;
+  background-color: green;
+}
+*/
