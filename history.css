@@ -28,7 +28,7 @@ body{
 
 #sidebar{
   width: 10vw;
-  height: 83vh;
+  height: 82vh;
   background-color: #ad001a;
   float: left;
   border-radius: 7px;
@@ -37,13 +37,13 @@ body{
   border: 1.5px solid darkgreen;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 95px;
 }
 
 #body{
   width: 82vw;
-  height: 80vh;
+  height: 79vh;
   background-color: #794F29;
   float: right;
   margin-left: 5px;
@@ -74,13 +74,13 @@ body{
 
 #humanism{
   width: 82vw;
-  height: 80vh;
+  height: 79vh;
   background-color: #794F29;
   float: right;
   margin-left: 5px;
   margin-right: 45px;
   margin-top: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   border: 2px solid darkgreen;
   border-radius: 10px;
   text-align: center;
@@ -121,17 +121,11 @@ body{
   border-radius: 10px;
   margin: 8px;
   margin-bottom: 10px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 #sidebar a:hover{
   background-color: grey;
   color: white;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 #sidebar h1{
@@ -139,9 +133,6 @@ body{
   text-align: center;
   margin-top: 10px;
   font-size: 40px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 @font-face {
