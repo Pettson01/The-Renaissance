@@ -41,9 +41,10 @@
   border: 1.5px solid darkgreen;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   margin-right: 70px;
+  margin-top: 110px;
 }
 
 #sidebar a{
@@ -78,6 +79,7 @@
   float: left;
   margin-top: 25px;
   font-size: 20px;
+  margin-left: 200px;
 }
 
 
@@ -111,6 +113,7 @@
   margin-top: 70px;
   border-radius: 10px;
   font-size: 20px;
+  margin-left: 200px;
 }
 
 
