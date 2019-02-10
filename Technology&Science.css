@@ -9,6 +9,13 @@
   src: url(CharpentierRenRed-Oblique.ttf);
 }
 
+/*
+body{
+  background-image: url(thread.jpg);
+  background-size: cover;
+}
+*/
+
 #logo{
   width: 100vw;
   height: 10vh;
@@ -32,19 +39,15 @@
 
 #sidebar{
   width: 10vw;
-  height: 83vh;
-  background-color: #ad001a;
+  height: 100vh;
   float: left;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  border: 1.5px solid darkgreen;
+  border: 1.5px solid black;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: fixed;
   top: 0;
   margin-right: 70px;
-  margin-top: 110px;
 }
 
 #sidebar a{
@@ -56,7 +59,7 @@
   border-bottom: 2px solid lightblue;
   border-radius: 10px;
   margin: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 #sidebar a:hover{
@@ -67,7 +70,7 @@
 #sidebar h1{
   color: white;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 40px;
 }
 
@@ -80,6 +83,7 @@
   margin-top: 25px;
   font-size: 20px;
   margin-left: 200px;
+  color: white;
 }
 
 
@@ -114,6 +118,7 @@
   border-radius: 10px;
   font-size: 20px;
   margin-left: 200px;
+  color: white;
 }
 
 
@@ -146,10 +151,96 @@
   background-color: black;
   border-radius: 10px;
   margin-top: 70px;
-  margin-right: 40px;
+  margin-right: 70px;
   background-image: url(sid.jpg);
   background-size: cover;
 }
+
+#text3{
+  width: 60vw;
+  height: 23vh;
+  background-color: #794F29;
+  float: left;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+#text3 p{
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#text4{
+  width: 50vw;
+  height: 60vh;
+  background-color: #794F29;
+  border-radius: 10px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 70px;
+  color: white;
+}
+
+#text4 h1{
+  font-size: 40px;
+  margin: 10px;
+}
+
+#text4 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+#bild4{
+  margin-left: 30px;
+  background-image: url(womb.jpg);
+}
+
+#bild5{
+  background-image: url(bone.jpg);
+}
+
+.Medicine{
+  width: 15vw;
+  height: 50vh;
+  border-radius: 10px;
+  background-color: #794F29;
+  float: left;
+  margin-top: 70px;
+  margin-right: 20px;
+  background-size: cover;
+}
+
+#text5{
+  width: 50vw;
+  height: 17vh;
+  background-color: #794F29;
+  color: white;
+  float: left;
+  margin-left: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#text5 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+#footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: grey;
+  float: right;
+  margin-top: 100px;
+}
+
 
 
 /*
