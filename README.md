@@ -8,4 +8,6 @@ grå färg: #a89e9a
 
 brun färg: #794F29
 
+vit färg: #fcfcee
+
 font-family: CharpentierRenRed-Oblique;

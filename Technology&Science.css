@@ -9,12 +9,11 @@
   src: url(CharpentierRenRed-Oblique.ttf);
 }
 
-/*
+
 body{
-  background-image: url(thread.jpg);
-  background-size: cover;
+  background-image: url();
 }
-*/
+
 
 #logo{
   width: 100vw;
@@ -36,7 +35,6 @@ body{
   float: right;
 }
 
-
 #sidebar{
   width: 10vw;
   height: 80vh;
@@ -46,7 +44,7 @@ body{
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: fixed;
-  top: 130px;
+  top: 110px;
   margin-right: 50px;
   margin-left: 10px;
 }
@@ -240,6 +238,28 @@ body{
   background-color: grey;
   float: right;
   margin-top: 100px;
+}
+
+.conclusion{
+  width: 15vw;
+  height: 40vh;
+  border-radius: 10px;
+  background-color: #794F29;
+  float: right;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#bild7{
+  background-image: url(man_the_ren.jpg);
+  background-size: cover;
+}
+
+#bild6{
+  background-image: url(flyg_brumm.jpg);
+  background-size: cover;
+    margin-right: 40px;
 }
 
 /*
