@@ -45,10 +45,10 @@ body{
 }
 
 #body1{
+  float: left;
   width: 60vw;
-  height: 79vh;
+  height: 30vh;
   background-color: #794F29;
-  float: right;
   margin-left: 10px;
   margin-right: 45px;
   margin-top: 25px;
@@ -56,8 +56,24 @@ body{
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
+  color: white;
 }
-
+#body2{
+  float: left;
+  width: 60vw;
+  height: 30vh;
+  background-color: #794F29;
+  margin-left: 10px;
+  margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+#body2 h2{
+  text-align: center;
+}
 #footer{
   width: 100vw;
   height: 4vh;
@@ -68,7 +84,7 @@ body{
 
 #sidebar a{
   text-decoration: none;
-  color: black;
+  color: white;
   background-color: #794F29;
   padding: 20px;
   display: block;
