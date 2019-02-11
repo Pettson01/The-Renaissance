@@ -9,12 +9,11 @@
   src: url(CharpentierRenRed-Oblique.ttf);
 }
 
-/*
+
 body{
-  background-image: url(thread.jpg);
-  background-size: cover;
+  background-image: url();
 }
-*/
+
 
 #logo{
   width: 100vw;
@@ -45,7 +44,7 @@ body{
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: fixed;
-  top: 130px;
+  top: 110px;
   margin-right: 50px;
   margin-left: 10px;
 }
