@@ -9,7 +9,7 @@ body{
 }
 
 #logo{
-  width: 100vw;
+  width: 99vw;
   height: 10vh;
   background-color: #a89e9a;
   font-size: 69px;
@@ -38,7 +38,7 @@ body{
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: fixed;
-  top: 95px;
+  top: 108px;
 }
 
 #body{
