@@ -6,7 +6,7 @@
 
 body{
   background-image:
-  url(bilder/background.jpg);
+  url(bilder/backgroundm2.jpg);
 }
 
 #logo{
@@ -164,7 +164,7 @@ border-color: #794F29;
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  font-size: 23px;
+  font-size: 20px;
   color: #fcfcee ;
 
 }
@@ -180,7 +180,7 @@ border-color: #794F29;
   border-radius: 10px;
   margin-right: 41px;
   font-family: CharpentierRenRed-Oblique;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 
