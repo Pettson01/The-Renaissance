@@ -11,7 +11,7 @@
 
 
 body{
-  background-image: url(pattern_tech.jpg);
+  background-image: url(Bilder/pattern_tech.jpg);
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@ body{
   font-family: CharpentierRenRed-Oblique;
   color: black;
   padding-bottom: 10px;
-  background-image: url(topp_logo.jpg);
+  background-image: url(Bilder/topp_logo.jpg);
   background-size: cover;
 }
 
@@ -107,7 +107,7 @@ body{
   border-radius: 10px;
   float: right;
   margin-top: 25px;
-  background-image: url(boi.jpg);
+  background-image: url(Bilder/boi.jpg);
   background-size: cover;
   margin-right: 40px;
 }
@@ -143,7 +143,7 @@ body{
   background-color: black;
   border-radius: 10px;
   margin-top: 70px;
-  background-image: url(Galileo_moon.png);
+  background-image: url(Bilder/Galileo_moon.png);
   margin-right: 40px;
   background-size: cover;
 }
@@ -156,7 +156,7 @@ body{
   border-radius: 10px;
   margin-top: 70px;
   margin-right: 70px;
-  background-image: url(sid.jpg);
+  background-image: url(Bilder/sid.jpg);
   background-size: cover;
 }
 
@@ -203,11 +203,11 @@ body{
 
 #bild4{
   margin-left: 30px;
-  background-image: url(womb.jpg);
+  background-image: url(Bilder/womb.jpg);
 }
 
 #bild5{
-  background-image: url(bone.jpg);
+  background-image: url(Bilder/bone.jpg);
 }
 
 .Medicine{
@@ -259,12 +259,12 @@ body{
 }
 
 #bild7{
-  background-image: url(man_the_ren.jpg);
+  background-image: url(Bilder/man_the_ren.jpg);
   background-size: cover;
 }
 
 #bild6{
-  background-image: url(flyg_brumm.jpg);
+  background-image: url(Bilder/flyg_brumm.jpg);
   background-size: cover;
     margin-right: 40px;
 }
