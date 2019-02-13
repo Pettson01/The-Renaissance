@@ -269,6 +269,15 @@ body{
     margin-right: 40px;
 }
 
+#footer{
+  text-align: center;
+  color: #fcfcee;
+}
+
+#footer p{
+  padding-top: 20px;
+}
+
 /*
 #test1{
   width: 20vw;
