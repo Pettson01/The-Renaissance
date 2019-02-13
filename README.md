@@ -11,3 +11,5 @@ brun färg: #794F29
 vit färg: #fcfcee
 
 font-family: CharpentierRenRed-Oblique;
+
+färg för alla rubriker: #2B2B3B
