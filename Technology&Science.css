@@ -24,8 +24,10 @@ body{
   font-size: 69px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  color: white;
+  color: black;
   padding-bottom: 10px;
+  background-image: url(topp_logo.jpg);
+  background-size: cover;
 }
 
 
