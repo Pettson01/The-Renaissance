@@ -4,6 +4,19 @@
     <meta charset="utf-8">
     <title>Monarchies & Governments of the Renaissance</title>
     <link href="oscar.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+     $.get('text.txt', function(data) {
+         document.getElementById("text1").innerHTML = data;
+         document.getElementById("text2").innerHTML = data;
+         document.getElementById("text3").innerHTML = data;
+         document.getElementById("text4").innerHTML = data;
+         document.getElementById("text5").innerHTML = data;
+         document.getElementById("text6").innerHTML = data;
+         document.getElementById("text7").innerHTML = data;
+
+     });
+ </script>
   </head>
   <body>
     <div id="logo"> <p> Governments & Monarchies</p></div>
