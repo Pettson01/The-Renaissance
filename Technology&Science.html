@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <title>Technology & Science</title>
     <link href="Technology&Science.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+    $.get('text.txt', function(data) {
+        document.getElementById("text1").innerHTML = data;
+    });
+    </script>
+
   </head>
 <body>
 
