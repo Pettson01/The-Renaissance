@@ -54,7 +54,7 @@ body{
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('historybackgroundss.jpg');
+  background-image: url('Bilder/historybackgroundss.jpg');
 }
 
 #body h2{
@@ -87,7 +87,7 @@ body{
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('florence.jpg');
+  background-image: url('Bilder/florence.jpg');
   background-position: center;
 }
 
