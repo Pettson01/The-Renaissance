@@ -95,6 +95,7 @@ body{
 #text1 p{
   padding-left: 10px;
   padding-right: 10px;
+  color: #fcfcee;
 }
 
 #bild1{
@@ -130,6 +131,7 @@ body{
 #text2 p{
   padding-left: 10px;
   padding-right: 10px;
+  color: #fcfcee;
 }
 
 #bild2{
@@ -167,7 +169,7 @@ body{
 }
 
 #text3 p{
-  color: white;
+  color: #fcfcee;
   font-size: 20px;
   padding-top: 10px;
   padding-left: 10px;
@@ -194,6 +196,7 @@ body{
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
+  color: #fcfcee;
 }
 
 #bild4{
@@ -231,6 +234,7 @@ body{
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
+  color: #fcfcee;
 }
 
 #footer{
