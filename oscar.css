@@ -46,7 +46,7 @@ body{
 
 #body1{
   float: left;
-  width: 60vw;
+  width: 50vw;
   height: 30vh;
   background-color: #794F29;
   margin-left: 10px;
@@ -56,11 +56,11 @@ body{
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
-  color: white;
+  color: #fcfcee;
 }
 #body2{
   float: left;
-  width: 60vw;
+  width: 50vw;
   height: 30vh;
   background-color: #794F29;
   margin-left: 10px;
@@ -69,7 +69,20 @@ body{
   margin-bottom: 15px;
   border-radius: 10px;
   font-size: 20px;
-  color: white;
+  color: #fcfcee;
+}
+#body3{
+  float: right;
+  width: 20vw;
+  height: 30vh;
+  background-color: #794F29;
+  margin-left: 10px;
+  margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fcfcee;
 }
 #body2 h2{
   text-align: center;
