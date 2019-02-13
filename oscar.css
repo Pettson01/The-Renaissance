@@ -46,7 +46,7 @@ body{
 
 #body1{
   float: left;
-  width: 50vw;
+  width: 20vw;
   height: 30vh;
   background-color: #794F29;
   margin-left: 10px;
@@ -57,6 +57,22 @@ body{
   text-align: center;
   font-size: 20px;
   color: #fcfcee;
+}
+#img1{
+  float: right;
+  width: 27vw;
+  height: 30vh;
+  background-color: #794F29;
+  margin-left: 10px;
+  margin-right: 45px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #fcfcee;
+  background-image:url('poltava.jpg');
+  background-size: cover;
 }
 #body2{
   float: left;
@@ -73,8 +89,8 @@ body{
 }
 #body3{
   float: right;
-  width: 20vw;
-  height: 30vh;
+  width: 32.7vw;
+  height: 60vh;
   background-color: #794F29;
   margin-left: 10px;
   margin-right: 45px;
