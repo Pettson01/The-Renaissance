@@ -6,7 +6,7 @@
 
 body{
   background-image:
-  url(https://img.freepik.com/free-vector/damask-seamless-pattern-background_1217-821.jpg?size=338&ext=jpg);
+  url(background.jpg);
 }
 
 #logo{
@@ -17,7 +17,7 @@ body{
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url(https://renaissance.yale.edu/sites/default/files/images/banner_raphael2.jpg);
+  background-image: url(logo.jpg);
 }
 
 #header{
