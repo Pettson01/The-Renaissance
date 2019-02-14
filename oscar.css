@@ -47,10 +47,10 @@ body{
 #body1{
   float: left;
   width: 20vw;
-  height: 38vh;
+  height: 48vh;
   background-color: #794F29;
   margin-left: 10px;
-  margin-right: 45px;
+  margin-right: 10px;
   margin-top: 25px;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -60,10 +60,10 @@ body{
 }
 #img1{
   float: right;
-  width: 25Vw;
+  width: 27.1Vw;
   height: 30vh;
   background-color: #794F29;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 45px;
   margin-top: 25px;
   margin-bottom: 15px;
