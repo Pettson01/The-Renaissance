@@ -112,13 +112,14 @@ body{
   height: 3vh;
   background-color: grey;
   float: right;
-  margin-top: 20px;
+  margin-top: 17px;
+  font-size: 11px;
 }
 
 #footer p{
   text-align: center;
   color: #fcfcee;
-  margin-top: 4px;
+  margin-top: 7px;
 }
 
 #sidebar a{
