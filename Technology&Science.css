@@ -13,6 +13,7 @@
 body{
   background-image: url(Bilder/pattern_tech.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 

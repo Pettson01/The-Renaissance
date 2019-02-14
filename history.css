@@ -6,6 +6,7 @@
 
 body{
   background-image: url(https://cdn.bmstores.co.uk/images/hpcProductImage/imgFull/335084-debona-sofia-grey-wallpaper.jpg);
+  background-attachment: fixed;
 }
 
 #logo{
@@ -38,7 +39,7 @@ body{
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: fixed;
-  top: 108px;
+  top: 94px;
 }
 
 #body{
@@ -48,7 +49,7 @@ body{
   float: right;
   margin-left: 5px;
   margin-right: 45px;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 5px;
   border: 2px solid darkgreen;
   border-radius: 10px;
@@ -82,7 +83,6 @@ body{
   margin-left: 5px;
   margin-right: 45px;
   margin-top: 30px;
-  margin-bottom: 15px;
   border: 2px solid darkgreen;
   border-radius: 10px;
   text-align: center;
@@ -109,10 +109,16 @@ body{
 
 #footer{
   width: 100vw;
-  height: 4vh;
-  background-color: #00001a;
+  height: 3vh;
+  background-color: grey;
   float: right;
-  border-radius: 3px;
+  margin-top: 20px;
+}
+
+#footer p{
+  text-align: center;
+  color: #fcfcee;
+  margin-top: 4px;
 }
 
 #sidebar a{
