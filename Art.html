@@ -4,6 +4,35 @@
     <meta charset="utf-8">
     <title> The Renassance Art and Music</title>
     <link href="art.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+    $.get('art_text/Art1.txt', function(data) {
+        document.getElementById("p1").innerHTML = data;
+    });
+
+    $.get('art_text/Art2.txt', function(data) {
+        document.getElementById("p2").innerHTML = data;
+    });
+
+    $.get('art_text/Art3.txt', function(data) {
+        document.getElementById("p2").innerHTML = data;
+    });
+
+    $.get('art_text/Art4.txt', function(data) {
+        document.getElementById("p2").innerHTML = data;
+    });
+
+    $.get('art_text/Art5.txt', function(data) {
+        document.getElementById("p2").innerHTML = data;
+    });
+
+
+    </script>
+
+
+
   </head>
 
   <body>
@@ -16,23 +45,19 @@
   <div id="body">
     <h1> Leonardo da Vinci's life </h1>
     <br>
-<p> Leonardo da Vinci was born 15 April 1452 in a town called Anchiano in Italy. 1466 when he was 14, he started off as an apprentice to Andrea Del Verrocchio. He was under Verrocchio’s teaching until 1478 when he moved away from his father’s home. Right after leaving Verrocchio, he got two commissions to draw an altar painting and a painting of the three wise men. Leonardo was a perfectionist and a hard critic to himself and after not liking the art style, he left both of the paintings unfinished and left to create other art pieces of his liking.
-In 1482 he started to work for the duke Milano, Ludovico Sforza as a hoof painter, sculptor, architect and army engineer. He worked for the Sforza family until 1499 when the French army occupied and captured Milano. Some of the artwork he made for Milano, was destroyed by the French army when occupying Milano.
-After the Milano incident, he went to Venice for a short amount of time where his army engineer knowledge and experience came to use. He helped come up with concepts and design different military weapons and useful gadgets. He had a lot of concepts like the military tank and a flying machine. He left Venice shortly after in 1500 and moved to Florins to continue taking commissions and drawing. He stayed in Florins until 1508. Under his time in Florins, he drew many famous paintings and inventions. But one of the most famous ones was probably Mona Lisa which was drawn between 1503 and 1506.
-His last 10 years he spent traveling around working for kings and other wealthy people. 1513 he went with his apprentice to Rome gain the Pope Leo X: s favor and trust to work under him. But left early as 1517 because he was requested to work for the king of France Frans I. He spent his last days under the king of France and passed away in 1519 May 2 in the castle Clos luse.
-His art was beloved in France and by most people. Even 500 years after his death, his art is still famous and well-known. It’s seen as the pinnacle of art at this time.
-</p>
+
+    <p id="p1"> </p>
+
     <br>
  <h1> Music in the renaissance </h1>
  <br>
- <p> There's wasen't alot of famous music produced under the Renaissance. Music was mostly used for plays and nothing else. Most of the music produced was made to fit the play. The music was mostly produced by the crew of the theater team and no famous name came from it.
-  </p>
+<p id="p2"> </p>
    </div>
 
    <div id="text">
      <h1> What changed in art in the Renaissance </h1>
      <br>
-     <p> In the renaissance art changed drastically and more art and sculptures of the human body and nature were drawn and created. The renaissance was the starting point of rejecting formal scholasticism of the prevailing Christian theology and creating something closer to nature. This idea of rejecting the Christian theology art style and drawing something closer to nature and the human body was a revolutionary and more art of the sort were made. One of the most famous artists that made both art with Christian theology and about the human body and nature was Leonardo da Vinci.  </p>
+     <p id="p3"> </p>
      </div>
 
 
@@ -50,7 +75,7 @@ His art was beloved in France and by most people. Even 500 years after his death
   </div>
 
   <div id="bild2">
-    <img src="bilder/self.jpg" alt="">
+    <img src="Bilder/self.jpg" alt="">
     </div>
 
 
@@ -59,7 +84,7 @@ His art was beloved in France and by most people. Even 500 years after his death
       <br>
       <h1> The last supper </h1>
       <br>
-      <p> The last super is a famous Christian masterpiece, which showcases Jesus last supper he gave to his followers. This is the first art-piece Leonardo made in this size. This painting was drawn on dry plaster wall with experimental pigments. This painting has had a lot of problems though, it has been flaking and the color has disappeared under the years. It has been restored countless times and not it’s said it not even close to the original masterpiece it once was. The last supper was drawn in 1495. </p>
+      <p id="p4"> </p>
       </div>
 
       <div id="bodyman">
@@ -79,7 +104,7 @@ His art was beloved in France and by most people. Even 500 years after his death
       </div>
 
     <div id="pic3">
-      <img src="bilder/man.jpg" alt="">
+      <img src="Bilder/man.jpg" alt="">
     </div>
 
   <div id="pic">
@@ -87,7 +112,7 @@ His art was beloved in France and by most people. Even 500 years after his death
     </div>
 
   <div id="pic2">
-    <img src="bilder/supper.jpg">
+    <img src="Bilder/supper.jpg">
   </div>
 
   </body>
