@@ -64,7 +64,7 @@ body{
   height: 30vh;
   background-color: #794F29;
   margin-left: 0px;
-  margin-right: 45px;
+  margin-right: 10px;
   margin-top: 25px;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -80,7 +80,7 @@ body{
   height: 30vh;
   background-color: #794F29;
   margin-left: 10px;
-  margin-right: 45px;
+  margin-right: px;
   margin-bottom: 15px;
   border-radius: 10px;
   font-size: 20px;
@@ -91,7 +91,7 @@ body{
   width: 32.7vw;
   height: 70vh;
   background-color: #794F29;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 45px;
   margin-top: 25px;
   margin-bottom: 15px;
