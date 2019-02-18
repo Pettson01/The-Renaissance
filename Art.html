@@ -8,24 +8,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
-    $.get('Art1.txt', function(data) {
+    $.get('art_text/Art1.txt', function(data) {
         document.getElementById("p1").innerHTML = data;
     });
 
-    $.get('Art2.txt', function(data) {
+    $.get('art_text/art2.txt', function(data) {
         document.getElementById("p2").innerHTML = data;
     });
 
-    $.get('Art3.txt', function(data) {
-        document.getElementById("p2").innerHTML = data;
+    $.get('art_text/art3.txt', function(data) {
+        document.getElementById("p3").innerHTML = data;
     });
 
-    $.get('Art4.txt', function(data) {
-        document.getElementById("p2").innerHTML = data;
+    $.get('art_text/art4.txt', function(data) {
+        document.getElementById("p4").innerHTML = data;
     });
 
-    $.get('Art5.txt', function(data) {
-        document.getElementById("p2").innerHTML = data;
+    $.get('art_text/art5.txt', function(data) {
+        document.getElementById("p5").innerHTML = data;
+    });
+
+    $.get('art_text/art6.txt', function(data) {
+        document.getElementById("p6").innerHTML = data;
+    });
+
+    $.get('art_text/art7.txt', function(data) {
+        document.getElementById("p7").innerHTML = data;
     });
 
 
@@ -51,14 +59,13 @@
     <br>
  <h1> Music in the renaissance </h1>
  <br>
- <p> There's wasen't alot of famous music produced under the Renaissance. Music was mostly used for plays and nothing else. Most of the music produced was made to fit the play. The music was mostly produced by the crew of the theater team and no famous name came from it.
-  </p>
+<p id="p2"> </p>
    </div>
 
    <div id="text">
      <h1> What changed in art in the Renaissance </h1>
      <br>
-     <p> In the renaissance art changed drastically and more art and sculptures of the human body and nature were drawn and created. The renaissance was the starting point of rejecting formal scholasticism of the prevailing Christian theology and creating something closer to nature. This idea of rejecting the Christian theology art style and drawing something closer to nature and the human body was a revolutionary and more art of the sort were made. One of the most famous artists that made both art with Christian theology and about the human body and nature was Leonardo da Vinci.  </p>
+     <p id="p3"> </p>
      </div>
 
 
@@ -76,7 +83,7 @@
   </div>
 
   <div id="bild2">
-    <img src="bilder/self.jpg" alt="">
+    <img src="Bilder/self.jpg" alt="">
     </div>
 
 
@@ -85,14 +92,14 @@
       <br>
       <h1> The last supper </h1>
       <br>
-      <p> The last super is a famous Christian masterpiece, which showcases Jesus last supper he gave to his followers. This is the first art-piece Leonardo made in this size. This painting was drawn on dry plaster wall with experimental pigments. This painting has had a lot of problems though, it has been flaking and the color has disappeared under the years. It has been restored countless times and not it’s said it not even close to the original masterpiece it once was. The last supper was drawn in 1495. </p>
+      <p id="p4"> </p>
       </div>
 
       <div id="bodyman">
         <br>
         <h1> Mona lisa </h1>
         <br>
-        <p> Leonardo da Vinci has made a lot of famous art and one of his biggest masterpieces is Mona Lisa. It said it had been drawn under 4 years while he was in Florins. It was drawn 1503-1506. </p>
+        <p id="p5"> </p>
         <br>
 
       </div>
@@ -101,11 +108,11 @@
         <br>
         <h1> Vitruvian Man </h1>
         <br>
-        <p> The Vitruvian man is Leonardo’s attempt to connect the human body to nature. Leonardo was very interested in making everything look realistic and this is one of the art pieces that show he was really keen on making everything the right proportion. He believed that the workings of the human body to be an analogy of the working of the universe.  </p>
+        <p id="p6"> </p>
       </div>
 
     <div id="pic3">
-      <img src="bilder/man.jpg" alt="">
+      <img src="Bilder/man.jpg" alt="">
     </div>
 
   <div id="pic">
@@ -113,7 +120,7 @@
     </div>
 
   <div id="pic2">
-    <img src="bilder/supper.jpg">
+    <img src="Bilder/supper.jpg">
   </div>
 
   </body>
