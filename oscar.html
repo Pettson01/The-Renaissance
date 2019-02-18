@@ -6,10 +6,14 @@
     <link href="oscar.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  <script>
-     $.get('osctext1.txt', function(data) {
+     $.get('Monarch_text/osctext1.txt', function(data) {
          document.getElementById("osctext1").innerHTML = data;
-
-
+     });
+     $.get('Monarch_text/osctext2.txt', function(data) {
+         document.getElementById("osctext2").innerHTML = data;
+     });
+     $.get('Monarch_text/osctext3.txt', function(data) {
+         document.getElementById("osctext3").innerHTML = data;
      });
  </script>
   </head>
@@ -19,14 +23,20 @@
     <div id="header">
      </div>
 
-     <div id="sidebar"><h1> Pages </h1><a href="history.html"> History </a><a href="Art.html"> Art & Music </a><a href="Technology&Science.html"> Technology & Science </a><a href="societal life.html"> Societal Life </a><a href="index.html"> Home  </a></div>
+     <div id="sidebar">
+       <h1> Pages </h1>
+       <a href="history.html"> History </a>
+       <a href="Art.html"> Art & Music </a>
+       <a href="Technology&Science.html"> Technology & Science </a>
+       <a href="societal life.html"> Societal Life </a>
+       <a href="index.html"> Home  </a></div>
      <div id="body3">
-          <h1> text 2 </h1>
+          <h1> What's special with those wars? </h1>
           <p id="osctext3">
  </p>
        </div>
     <div id="body1">
-      <h1> Text 1 </h1>
+      <h1> Introduction </h1>
       <p id="osctext1"> </p>
      </div>
      <div id="img1">
