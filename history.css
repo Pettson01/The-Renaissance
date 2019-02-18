@@ -100,7 +100,7 @@ body{
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
   background-image: url('Bilder/florence.jpg');
-  background-position: center;
+  background-position: top;
 }
 
 #humanism h2{
@@ -113,7 +113,7 @@ body{
 #humanism p{
   font-size: 22px;
   margin-top: 15px;
-  margin-right: 150px;
+  margin-right: 100px;
   margin-left: 30px;
   margin-bottom: 15px;
   color: #fcfcee;
