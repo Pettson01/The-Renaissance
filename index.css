@@ -18,6 +18,7 @@ body{
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  float: right;
 }
 
 #header{
