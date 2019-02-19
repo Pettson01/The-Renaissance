@@ -58,7 +58,7 @@ body{
 
 #body{
   width: 60vw;
-  height: 250vh;
+  height: 300vh;
   background-color: #794F29;
   float: right;
   margin-left: 10px;
@@ -68,6 +68,7 @@ body{
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
+  color: #fcfcee;
 }
 
 #footer{
@@ -105,4 +106,8 @@ body{
 @font-face {
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
+}
+
+#p1{
+  padding: 10px;
 }
