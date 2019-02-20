@@ -8,44 +8,44 @@ body{
   background-image:
   url(Bilder/backgroundsocietal.jpg);
   background-attachment: fixed;
-}
+}/*Backgrounds bild*/
 
-#logo{
-  width: 100vw;
-  height: 10vh;
-  background-color: #a89e9a;
+#logo{/*Väljer "logo"*/
+  width: 100vw;/*Brädden på loggan*/
+  height: 10vh;/*Höjden på loggan*/
+  background-color: #a89e9a;/*backgrounds färgen på loggan*/
   border-radius: 7px;
-  font-size: 69px;
-  color: white;
-  text-align: center;
-  font-family: CharpentierRenRed-Oblique;
+  font-size: 69px;/*Storlek på texten*/
+  color: white;/*Färgen på texten*/
+  text-align: center;/*Centrerar texten*/
+  font-family: CharpentierRenRed-Oblique;/*Text font*/
 }
 
-#header{
-  width: 100vw;
-  height: 3vh;
-  background-color: #794F29;
-  float: right;
+#header{/*Väljer "header"*/
+  width: 100vw;/*Brädden på headern*/
+  height: 3vh;/*Höjden på headern*/
+  background-color: #794F29;/*Färgen på headern*/
+  float: right;/*Lägger headern till höger*/
 }
 
-#sidebar{
-  width: 10vw;
-  height: 83vh;
-  background-color: #ad001a;
-  float: left;
+#sidebar{/*Väljer "sidebar"*/
+  width: 10vw;/*Brädden på sidebaren*/
+  height: 83vh;/*Höjden på sidebaren*/
+  background-color: #ad001a;/*Backgrounds färgen på sidebaren*/
+  float: left;/*Lägger sidebaren till vänster*/
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
-  border: 1.5px solid darkgreen;
-  background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
+  border: 1.5px solid darkgreen;/*Sätter en grön border runt sidebaren*/
+  background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);/*Backgrounds bilden i sidebaren*/
   position: -webkit-sticky;
-  position: sticky;
+  position: sticky;/*Gör att sidebaren alltid har samma avstånd från alla sidor även om man skrollar*/
   top: 0
 }
 
-#text1{
-  width: 42vw;
-  height: 83vh;
+#text1{/*Väljer första textrutan*/
+  width: 42vw;/*Brädden på första textrutan*/
+  height: 83vh;/**/
   background-color: #794F29;
   float: right;
   margin-left: 10px;
