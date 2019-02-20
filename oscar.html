@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Monarchies & Governments of the Renaissance</title>
-    <link href="oscar.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="oscar.css" rel="stylesheet"> <!-- Stylesheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> /* Hämtar skripten som gör att text dokumenten fungerar */
+    </script>
  <script>
      $.get('Monarch_text/osctext1.txt', function(data) {
          document.getElementById("osctext1").innerHTML = data;
@@ -17,43 +18,44 @@
      })
      ;$.get('Monarch_text/osctext4.txt', function(data) {
          document.getElementById("osctext4").innerHTML = data;
-     });
+     });    /* Fångar JQuery skripen och binder den till de text dokumenten jag har i mappen Monarch_Text, och lägger in de i divvarna */
  </script>
   </head>
   <body>
-    <div id="logo"> <p> Governments & Monarchies</p></div>
+    <div id="logo"> <p> Governments & Monarchies</p></div> <!-- Div för headern + texten -->
 
     <div id="header">
      </div>
 
-     <div id="sidebar">
+     <div id="sidebar"> <!-- Divven för sidebar -->
        <h1> Pages </h1>
        <a href="history.html"> History </a>
        <a href="Art.html"> Art & Music </a>
        <a href="Technology&Science.html"> Technology & Science </a>
        <a href="societal life.html"> Societal Life </a>
-       <a href="index.html"> Home  </a></div>
-     <div id="body3">
+       <a href="index.html"> Home  </a></div> <!-- Knappar för de olika sidorna -->
+
+     <div id="body3"> <!-- Div för body3, denna ligger längre upp än de andra för prioritet -->
           <h1> The Hundred Years' War </h1>
           <p id="osctext3">
  </p>
        </div>
-    <div id="body1">
+    <div id="body1"> <!-- Div body1 -->
       <h1> Introduction </h1>
       <p id="osctext1"> </p>
-     </div>
+     </div>  <!-- Div img1 (bild) -->
      <div id="img1">
      </div>
 
-     <div id="body2">
+     <div id="body2"> <!-- div body2 -->
               <h2> Wars & Conflicts </h2>
               <p id="osctext2"></p>
        </div>
-       <div id="body4">
+       <div id="body4"> <!-- div body4 -->
          <h1> The Thirty Years' War </h1>
          <p id="osctext4"></p>
       </div>
-      <div id="footer">
+      <div id="footer"> <!--  Div för footer, copyright information -->
 
          <p> All pictures in public domain from Wikipedia </p>
 
