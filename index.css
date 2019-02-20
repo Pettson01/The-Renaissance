@@ -18,6 +18,7 @@ body{
   color: white;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
+  float: right;
 }
 
 #header{
@@ -30,12 +31,12 @@ body{
 #sidebar{
   width: 10vw;
   height: 83vh;
-  background-color: #ad001a;
+  background-color: #794F29;
   float: left;
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
-  border: 1.5px solid darkgreen;
+  border: 1.5px solid black;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: sticky;
@@ -45,19 +46,20 @@ body{
 #picture{
   width: 20vw;
   height: 79vh;
-  background-color: #ad001a;
+  background-color: #794F29;
   float: right;
   border-radius: 5px;
   margin-top: 25px;
   margin-right: 20px;
-  border: 1.5px solid darkgreen;
+  border: 1.5px solid black;
   background-image: url(https://news.artnet.com/app/news-upload/2014/07/Mona_Lisa.jpg);
   background-position: center;
 }
 
 #body{
   width: 60vw;
-  height: 79vh;
+  height: 350vh;
+  margin-bottom: 30px;
   background-color: #794F29;
   float: right;
   margin-left: 10px;
@@ -65,8 +67,8 @@ body{
   margin-top: 27px;
   margin-bottom: 15px;
   border-radius: 10px;
-  text-align: center;
   font-size: 20px;
+  color: #fcfcee;
 }
 
 #footer{
@@ -104,4 +106,20 @@ body{
 @font-face {
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
+}
+
+#p1{
+  padding: 10px;
+}
+
+#p1 h1{
+  text-align: center;
+}
+
+#p1 h2{
+  text-align: center;
+}
+
+#p1 h3{
+  text-align: center;
 }

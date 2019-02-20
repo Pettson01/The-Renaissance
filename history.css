@@ -99,21 +99,21 @@ body{
   border-radius: 10px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  background-image: url('Bilder/florence.jpg');
-  background-position: center;
+  background-image: url('Bilder/florencie.jpg');
+  background-position: left;
 }
 
 #humanism h2{
   font-size: 40px;
   margin-top: 20px;
-  margin-right: 170px;
+  margin-right: 70px;
   color: #2B2B3B;
 }
 
 #humanism p{
   font-size: 22px;
   margin-top: 15px;
-  margin-right: 250px;
+  margin-right: 100px;
   margin-left: 30px;
   margin-bottom: 15px;
   color: #fcfcee;

@@ -4,6 +4,17 @@
     <meta charset="utf-8">
     <title> The Renassance </title>
     <link href="index.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+        $.get('more_texts/group_a', function(data) {
+            document.getElementById("p1").innerHTML = data;
+        });
+
+        </script>
+
+
   </head>
 
   <body>
@@ -17,7 +28,7 @@
   </div>
 
   <div id="body">
-    <h2> HÄR SKA DET FINNAS TEXT </h2>
+    <p id="p1"> </p>
   </div>
 
   <div id="sidebar">
