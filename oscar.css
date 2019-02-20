@@ -62,14 +62,15 @@ body{
 }
 #img1{
   float: left;
-  width: 27.1Vw;
-  height: 30vh;
+  width: 29.5Vw;
+  height: 40vh;
   background-color: #794F29;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 15px;
   border-radius: 10px;
+  border: 1.5px solid black;
   text-align: center;
   font-size: 20px;
   color: #fcfcee;
