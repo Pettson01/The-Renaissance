@@ -31,7 +31,7 @@ body{
 #sidebar{
   width: 10vw;
   height: 83vh;
-  background-color: #ad001a;
+  background-color: #794F29;
   float: left;
   border-radius: 5px;
   margin-top: 10px;
@@ -46,12 +46,12 @@ body{
 #picture{
   width: 20vw;
   height: 79vh;
-  background-color: #ad001a;
+  background-color: #794F29;
   float: right;
   border-radius: 5px;
   margin-top: 25px;
   margin-right: 20px;
-  border: 1.5px solid darkgreen;
+  border: 1.5px solid black;
   background-image: url(https://news.artnet.com/app/news-upload/2014/07/Mona_Lisa.jpg);
   background-position: center;
 }
