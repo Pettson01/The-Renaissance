@@ -51,6 +51,7 @@ body{
   top: 110px;
   margin-right: 50px;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 #sidebar a{
@@ -242,10 +243,12 @@ body{
 
 #footer{
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   background-color: grey;
   float: right;
   margin-top: 100px;
+  text-align: center;
+  color: #fcfcee;
 }
 
 .conclusion{
@@ -268,11 +271,6 @@ body{
   background-image: url(Bilder/flyg_brumm.jpg);
   background-size: cover;
     margin-right: 40px;
-}
-
-#footer{
-  text-align: center;
-  color: #fcfcee;
 }
 
 #footer p{
