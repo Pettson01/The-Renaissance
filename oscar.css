@@ -41,11 +41,12 @@ body{
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
   position: -webkit-sticky;
   position: sticky;
-  top: 0; 
+  top: 0;
 }
 
 #body1{
   float: left;
+  padding: 5px;
   width: 20vw;
   height: 48vh;
   background-color: #794F29;
@@ -77,6 +78,7 @@ body{
 #body2{
   float: left;
   width: 50vw;
+  padding: 15px;
   height: 30vh;
   background-color: #794F29;
   margin-left: 10px;
@@ -88,6 +90,7 @@ body{
 #body3{
   float: right;
   width: 32.7vw;
+  padding: 15px;
   height: 70vh;
   background-color: #794F29;
   margin-left: 0px;
