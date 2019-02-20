@@ -43,7 +43,6 @@ body{
   position: sticky;
   top: 0;
 }
-
 #body1{
   float: left;
   padding: 5px;
@@ -61,7 +60,7 @@ body{
   color: #fcfcee;
 }
 #img1{
-  float: right;
+  float: left;
   width: 27.1Vw;
   height: 30vh;
   background-color: #794F29;
@@ -114,7 +113,6 @@ body{
   float: right;
   border-radius: 3px;
 }
-
 #sidebar a{
   text-decoration: none;
   color: white;
@@ -126,19 +124,16 @@ body{
   margin: 8px;
   margin-bottom: 10px;
 }
-
 #sidebar a:hover{
   background-color: grey;
   color: white;
 }
-
 #sidebar h1{
   color: white;
   text-align: center;
   margin-top: 10px;
   font-size: 40px;
 }
-
 @font-face {
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
