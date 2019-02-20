@@ -104,6 +104,21 @@ body{
   font-size: 20px;
   color: #fcfcee;
 }
+#body4{
+  float: right;
+  width: 32.7vw;
+  padding: 15px;
+  height: 70vh;
+  border: 1.5px solid black;
+  background-color: #794F29;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fcfcee;
+}
 #body2 h2{
   text-align: center;
 }
@@ -128,6 +143,20 @@ body{
 #sidebar a:hover{
   background-color: grey;
   color: white;
+}
+#footer{
+  width: 100vw;
+  height: 3vh;
+  background-color: grey;
+  float: right;
+  margin-top: 17px;
+  font-size: 11px;
+}
+
+#footer p{
+  text-align: center;
+  color: #fcfcee;
+  margin-top: 7px;
 }
 #sidebar h1{
   color: white;
