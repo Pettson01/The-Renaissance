@@ -6,6 +6,7 @@
     <link href="Technology&Science.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <script>
     $.get('Text_Technology/Introduction.txt', function(data) {
@@ -27,6 +28,10 @@
 
     $.get('Text_Technology/Conclusion.txt', function(data) {
         document.getElementById("p5").innerHTML = data;
+    });
+
+    $(window).scroll(function(){
+    $("#sidebar").css("top", Math.max(0, 100 - $(this).scrollTop()));
     });
 
     </script>
