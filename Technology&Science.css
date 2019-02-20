@@ -4,19 +4,20 @@
   font-family: CharpentierRenRed-Oblique;
 }
 
+/* Font */
 @font-face {
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
 }
 
-
+/* background */
 body{
   background-image: url(Bilder/pattern_tech.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
-
+/*Rubriken på toppen av sidan*/
 #logo{
   width: 100vw;
   height: 10vh;
@@ -31,7 +32,7 @@ body{
   background-size: cover;
 }
 
-
+/* Den bruna linjen under rubriken*/
 #logo2{
   width: 100vw;
   height: 3vh;
@@ -39,6 +40,7 @@ body{
   float: right;
 }
 
+/* Sidebar och alla dess effekter */
 #sidebar{
   width: 10vw;
   height: 80vh;
@@ -78,6 +80,7 @@ body{
   font-size: 40px;
 }
 
+/* Text 1 */
 #text1{
   width: 45vw;
   height: 35vh;
@@ -102,6 +105,7 @@ body{
   color: #fcfcee;
 }
 
+/* Galilei Gallileo och Leonardo Da Vinci */
 #bild1{
   width: 33vw;
   height: 35vh;
@@ -114,6 +118,7 @@ body{
   margin-right: 40px;
 }
 
+/* Text 2 */
 #text2{
   width: 40vw;
   height: 50vh;
@@ -138,6 +143,7 @@ body{
   color: #fcfcee;
 }
 
+/* Galileo månar*/
 #bild2{
   float: right;
   width: 17vw;
@@ -150,6 +156,7 @@ body{
   background-size: cover;
 }
 
+/* Framsidan av boken */
 #bild3{
   float: right;
   width: 17vw;
@@ -162,6 +169,7 @@ body{
   background-size: cover;
 }
 
+/* Text 3 */
 #text3{
   width: 60vw;
   height: 23vh;
@@ -180,6 +188,7 @@ body{
   padding-right: 10px;
 }
 
+/* Text 4 */
 #text4{
   width: 50vw;
   height: 70vh;
@@ -204,14 +213,17 @@ body{
 }
 
 #bild4{
+  /* Leonardo Da Vinci ritningar av barn */
   margin-left: 30px;
   background-image: url(Bilder/womb.jpg);
 }
 
+/* Leonardo Da Vinci ritningar av ben */
 #bild5{
   background-image: url(Bilder/bone.jpg);
 }
 
+/* Bilder i slutet av sidan */
 .Medicine{
   width: 15vw;
   height: 50vh;
@@ -223,6 +235,7 @@ body{
   background-size: cover;
 }
 
+/* Text fem */
 #text5{
   width: 50vw;
   height: 20vh;
@@ -241,6 +254,7 @@ body{
   color: #fcfcee;
 }
 
+/* Footern som inehåller källornas */
 #footer{
   width: 100vw;
   height: 8vh;
@@ -262,11 +276,13 @@ body{
   margin-top: 10px;
 }
 
+/* Leonardo Da Vinci ritningar av en mans kropp */
 #bild7{
   background-image: url(Bilder/man_the_ren.jpg);
   background-size: cover;
 }
 
+/* Leonardo Da Vinci ritningar av ett flygplan av trä */
 #bild6{
   background-image: url(Bilder/flyg_brumm.jpg);
   background-size: cover;

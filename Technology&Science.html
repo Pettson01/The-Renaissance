@@ -5,10 +5,15 @@
     <title>Technology & Science</title>
     <link href="Technology&Science.css" rel="stylesheet">
 
+    <!-- Scriptet för att föra över text från en txt fil-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Gör så sidebaren på sidan stoppar följer med och stanner vid en viss position-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+
     <script>
+/* Scriptet för att föra över text från en txt fil */
     $.get('Text_Technology/Introduction.txt', function(data) {
         document.getElementById("p1").innerHTML = data;
     });
@@ -30,6 +35,7 @@
         document.getElementById("p5").innerHTML = data;
     });
 
+/* Gör så sidebaren på sidan stoppar följer med och stanner vid en viss position */
     $(window).scroll(function(){
     $("#sidebar").css("top", Math.max(0, 100 - $(this).scrollTop()));
     });
@@ -44,6 +50,7 @@
 <div id="logo"> <p> Technology & Science </p> </div>
 <div id="logo2"> </div>
 
+<!-- Sidebar -->
 <div id="sidebar">
   <h1> Pages </h1>
   <a href="index.html"> Home </a>
@@ -53,6 +60,7 @@
   <a href="history.html"> History </a>
 </div>
 
+<!-- Text 1 -->
 <div id="text1">
 <h1> Introduction </h1>
 <p id="p1">
@@ -60,22 +68,29 @@
 </p>
 </div>
 
+<!-- Galilei Gallileo och Leonardo Da Vinci -->
 <div id="bild1"> </div>
 
+<!-- Text 2 -->
 <div id="text2">
 <h1> Astronomy </h1>
 <p id="p2">
 </p>
 </div>
 
+<!-- Framsidan av boken -->
 <div id="bild3"> </div>
+
+<!-- Månbilderna -->
 <div id="bild2"> </div>
 
+<!-- Text 3 -->
 <div id="text3">
 <p id="p3">
 </p>
 </div>
 
+<!-- Text 4 -->
 <div id="text4">
 <h1> Medicine </h1>
 <p id="p4">
@@ -84,18 +99,26 @@
 </p>
 </div>
 
+<!-- Leonardo Da Vinci ritningar av ett barn i fosterställning -->
 <div id="bild4" class="Medicine"> </div>
+
+<!-- Leonardo Da Vinci ritningar av ben -->
 <div id="bild5" class="Medicine"> </div>
 
+<!-- Leonardo Da Vinci flygmaskin -->
 <div id="bild6" class="conclusion"> </div>
+
+<!-- Leonardo Da Vinci drawing of a man -->
 <div id="bild7" class="conclusion"> </div>
 
+<!-- Text 5 -->
 <div id="text5">
 <p id="p5">
 
 </p>
 </div>
 
+<!-- Footer som inkluderar källor -->
 <div id="footer">
   <p> All pictures in public domain from Wikipedia </p>
   <nav> <a href="source.html"> Sources </a> </nav>
