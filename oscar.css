@@ -1,16 +1,16 @@
-*{
+*{ /* Generella egenskaper för universal */
   margin: 0;
   padding: 0;
   font-family: CharpentierRenRed-Oblique;
 }
 
-body{
+body{ /* Generella egenskaper för body, bild och storlek på bilden */
   background-image:
   url('Bilder/backgroundosc.jpg');
   background-size: auto;
 }
 
-#logo{
+#logo{ /* Generella egenskaper för header delen, texten och bilden som sitter där */
   width: 100vw;
   height: 10vh;
   border-radius: 7px;
@@ -22,7 +22,7 @@ body{
   background-position:center;
 }
 
-#header{
+#header{ /* Generella egenskaper för den bruna linjen som sepererar */
   width: 100vw;
   height: 3vh;
   border: 1px solid black;
@@ -30,7 +30,7 @@ body{
   float: right;
 }
 
-#sidebar{
+#sidebar{ /* Generella egenskaper för sidebaren, backgrundsbild och annat */
   width: 10vw;
   height: 83vh;
   background-color: #ad001a;
@@ -44,7 +44,7 @@ body{
   position: sticky;
   top: 0;
 }
-#body1{
+#body1{ /* Generella egenskaper för divven body1 */
   float: left;
   padding: 5px;
   width: 20vw;
@@ -60,7 +60,7 @@ body{
   font-size: 20px;
   color: #fcfcee;
 }
-#img1{
+#img1{  /* Generella egenskaper för divven img1, med bild */
   float: left;
   width: 29Vw;
   height: 40vh;
@@ -77,7 +77,7 @@ body{
   background-image:url('Bilder/poltava.jpg');
   background-size: cover;
 }
-#body2{
+#body2{ /* Generella egenskaper för divven body2 */
   float: left;
   width: 49vw;
   padding: 15px;
@@ -90,7 +90,7 @@ body{
   font-size: 20px;
   color: #fcfcee;
 }
-#body3{
+#body3{ /* Generella egenskaper för divven body3 */
   float: right;
   width: 32.7vw;
   padding: 15px;
@@ -105,7 +105,7 @@ body{
   font-size: 20px;
   color: #fcfcee;
 }
-#body4{
+#body4{ /* Generella egenskaper för divven body4 */
   float: right;
   width: 32.7vw;
   padding: 15px;
@@ -120,17 +120,10 @@ body{
   font-size: 20px;
   color: #fcfcee;
 }
-#body2 h2{
+#body2 h2{ /* Generella egenskaper för h2en i body2 */
   text-align: center;
 }
-#footer{
-  width: 100vw;
-  height: 4vh;
-  background-color: #00001a;
-  float: right;
-  border-radius: 3px;
-}
-#sidebar a{
+#sidebar a{ /* Generella egenskaper för texten i sidebar divven */
   text-decoration: none;
   color: white;
   background-color: #794F29;
@@ -141,11 +134,11 @@ body{
   margin: 8px;
   margin-bottom: 10px;
 }
-#sidebar a:hover{
+#sidebar a:hover{ /* Hover egenskap för sidebaren */
   background-color: grey;
   color: white;
 }
-#footer{
+#footer{ /* Generella egenskaper för footern där information om bilderna finns */
   width: 100vw;
   height: 3vh;
   background-color: grey;
@@ -154,18 +147,18 @@ body{
   font-size: 11px;
 }
 
-#footer p{
+#footer p{ /* Generella egenskaper för p texten i footern */
   text-align: center;
   color: #fcfcee;
   margin-top: 7px;
 }
-#sidebar h1{
+#sidebar h1{ /* Generella egenskaper för h1 texten i sidebar */
   color: white;
   text-align: center;
   margin-top: 10px;
   font-size: 40px;
 }
-@font-face {
+@font-face { /* Generella egenskaper för fonten */
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
 }
