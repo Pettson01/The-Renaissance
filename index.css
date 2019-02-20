@@ -4,11 +4,13 @@
   font-family: CharpentierRenRed-Oblique;
 }
 
+/* background bilden*/
 body{
   background-image:
   url(https://us.123rf.com/450wm/tukkki/tukkki1301/tukkki130100025/17125799-lineair-patroon-met-zilveren-lijnen-website-achtergrond-of-vakantie-inpakpapier-of-elegante-huwelijk.jpg?ver=6);
 }
 
+/*Divven högst upp på sidan med texten i sig*/
 #logo{
   width: 100vw;
   height: 10vh;
@@ -23,6 +25,7 @@ body{
   background-position: center;
 }
 
+/*Den bruna linjen högst upp*/
 #header{
   width: 100vw;
   height: 3vh;
@@ -30,6 +33,7 @@ body{
   float: right;
 }
 
+/*Sidebar*/
 #sidebar{
   width: 10vw;
   height: 83vh;
@@ -45,6 +49,7 @@ body{
   top: 105px;
 }
 
+/* All text */
 #body{
   width: 60vw;
   height: 360vh;
@@ -60,6 +65,7 @@ body{
   color: #fcfcee;
 }
 
+/* Bilderna */
 #picture{
   width: 20vw;
   height: 79vh;
@@ -95,6 +101,7 @@ body{
   border-radius: 3px;
 }
 
+/* Sidebar effekterna */
 #sidebar a{
   text-decoration: none;
   color: black;
@@ -107,6 +114,7 @@ body{
   margin-bottom: 10px;
 }
 
+/* Sidebar effekterna */
 #sidebar a:hover{
   background-color: grey;
   color: white;
@@ -119,11 +127,13 @@ body{
   font-size: 40px;
 }
 
+/* Font */
 @font-face {
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
 }
 
+/* Paragraferna i txt filen */
 #p1{
   padding: 10px;
 }
