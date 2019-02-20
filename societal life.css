@@ -8,99 +8,99 @@ body{
   background-image:
   url(Bilder/backgroundsocietal.jpg);
   background-attachment: fixed;
-}
+}/*Backgrounds bild*/
 
-#logo{
-  width: 100vw;
-  height: 10vh;
-  background-color: #a89e9a;
+#logo{/*Väljer "logo"*/
+  width: 100vw;/*Brädden på loggan*/
+  height: 10vh;/*Höjden på loggan*/
+  background-color: #a89e9a;/*backgrounds färgen på loggan*/
   border-radius: 7px;
-  font-size: 69px;
-  color: white;
-  text-align: center;
-  font-family: CharpentierRenRed-Oblique;
+  font-size: 69px;/*Storlek på texten*/
+  color: white;/*Text färg*/
+  text-align: center;/*Centrerar texten*/
+  font-family: CharpentierRenRed-Oblique;/*Text font*/
 }
 
-#header{
-  width: 100vw;
-  height: 3vh;
-  background-color: #794F29;
-  float: right;
+#header{/*Väljer "header"*/
+  width: 100vw;/*Brädden på headern*/
+  height: 3vh;/*Höjden på headern*/
+  background-color: #794F29;/*Färgen på headern*/
+  float: right;/*Lägger headern till höger*/
 }
 
-#sidebar{
-  width: 10vw;
-  height: 83vh;
-  background-color: #ad001a;
-  float: left;
+#sidebar{/*Väljer "sidebar"*/
+  width: 10vw;/*Brädden på sidebaren*/
+  height: 83vh;/*Höjden på sidebaren*/
+  background-color: #ad001a;/*Backgrounds färgen på sidebaren*/
+  float: left;/*Lägger sidebaren till vänster*/
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
-  border: 1.5px solid darkgreen;
-  background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
+  border: 1.5px solid darkgreen;/*Sätter en grön border runt sidebaren*/
+  background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);/*Backgrounds bilden i sidebaren*/
   position: -webkit-sticky;
-  position: sticky;
+  position: sticky;/*Gör att sidebaren alltid har samma avstånd från alla sidor även om man skrollar*/
   top: 0
 }
 
-#text1{
-  width: 42vw;
-  height: 83vh;
-  background-color: #794F29;
-  float: right;
+#text1{/*Väljer första textrutan*/
+  width: 42vw;/*Brädden på första textrutan*/
+  height: 83vh;/*Höjden på första textrutan*/
+  background-color: #794F29;/*Backgrounds färgen på första textrutan*/
+  float: right;/*Lägger textrutan till höger*/
   margin-left: 10px;
   margin-right: 45px;
   margin-top: 25px;
   margin-bottom: 15px;
   border-radius: 10px;
-  text-align: center;
-  font-size: 20px;
-  color: #fcfcee;
+  text-align: center;/*Centrerar texten i textrutan*/
+  font-size: 20px;/*Storleken på texten*/
+  color: #fcfcee;/*text färg*/
 }
 
-#text2{
-  width: 33vw;
-  height: 50vh;
-  background-color: #794F29;
-  float: right;
+#text2{/*Väljer andra textrutan*/
+  width: 33vw;/*Brädden på andra textrutan*/
+  height: 50vh;/*Höjden på andra textrutan*/
+  background-color: #794F29;/*Backgrounds färgen på andra textrutan*/
+  float: right;/*Lägger textrutan till höger*/
   margin-left: 10px;
   margin-right: 45px;
   margin-top: 25px;
   margin-bottom: 15px;
   border-radius: 10px;
-  text-align: center;
-  font-size: 20px;
-  color: #fcfcee;
+  text-align: center;/*Centrerar texten i textrutan*/
+  font-size: 20px;/*Storleken på texten*/
+  color: #fcfcee;/*Text färg*/
 }
 
-#footer{
-  width: 100vw;
-  height: 4vh;
-  background-color: #00001a;
-  float: right;
+#footer{/*Väljer "footer"*/
+  width: 100vw;/*Brädden på footern*/
+  height: 4vh;/*Höjden på footern*/
+  background-color: #00001a;/*färgen på footern*/
+  float: right;/*Lägger footern till höger*/
   border-radius: 3px;
 }
 
-#sidebar a{
-  text-decoration: none;
-  color: black;
-  background-color: #794F29;
+#sidebar a{/*Väljer länkarna i sidebaren*/
+  text-decoration: none;/*Tar bort all text decoration*/
+  color: black;/*Text färg*/
+  background-color: #794F29;/*Backgrounds färg*/
   padding: 20px;
   display: block;
-  border-bottom: 2px solid lightblue;
+  border-bottom: 2px solid lightblue;/*Sätter en ljus blå border under*/
   border-radius: 10px;
   margin: 8px;
   margin-bottom: 10px;
 }
 
-#sidebar a:hover{
-  background-color: grey;
-  color: white;
+#sidebar a:hover{/*Väljer länkarna när man har musen över dem*/
+  background-color: grey;/*Backgrounds färg*/
+  color: white;/*Text färg*/
 }
 
-#sidebar h1{
-  color: white;
-  text-align: center;
+#sidebar h1{/*Väljer rubriken i sidebaren*/
+  color: white;/*Text färg*/
+  text-align: center;/*Centrerar texten*/
   margin-top: 10px;
   font-size: 40px;
 }
@@ -108,4 +108,4 @@ body{
 @font-face {
   font-family: CharpentierRenRed-Oblique;
   src: url(CharpentierRenRed-Oblique.ttf);
-}
+}/*Font*/
