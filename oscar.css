@@ -124,6 +124,7 @@ body{ /* Generella egenskaper för body, bild och storlek på bilden */
   text-align: center;
 }
 #sidebar a{ /* Generella egenskaper för texten i sidebar divven */
+  color: black;
   text-decoration: none;
   background-color: #794F29;
   padding: 20px;
