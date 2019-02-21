@@ -93,14 +93,6 @@ body{
 }
 
 
-#footer{
-  width: 100vw;
-  height: 4vh;
-  background-color: #00001a;
-  float: right;
-  border-radius: 3px;
-}
-
 /* Sidebar effekterna */
 #sidebar a{
   text-decoration: none;
