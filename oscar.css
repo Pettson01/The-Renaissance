@@ -125,7 +125,6 @@ body{ /* Generella egenskaper för body, bild och storlek på bilden */
 }
 #sidebar a{ /* Generella egenskaper för texten i sidebar divven */
   text-decoration: none;
-  color: white;
   background-color: #794F29;
   padding: 20px;
   display: block;
