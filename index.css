@@ -52,14 +52,14 @@ body{
 /* All text */
 #body{
   width: 60vw;
-  height: 360vh;
+  height: 380vh;
   margin-bottom: 30px;
   background-color: #794F29;
   float: left;
   margin-left: 220px;
   margin-right: 45px;
   margin-top: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
   border-radius: 10px;
   font-size: 20px;
   color: #fcfcee;
@@ -92,6 +92,44 @@ body{
   background-position: center;
 }
 
+#picture2{
+  width: 20vw;
+  height: 79vh;
+  background-color: #794F29;
+  float: right;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 20px;
+  border: 1.5px solid black;
+  background-image: url(https://www.sciencephotogallery.com/p/173/galileo-galilei-italian-astronomer-1123845.jpg);
+  background-position: center;
+}
+
+#picture3{
+  width: 20vw;
+  height: 60vh;
+  background-color: #794F29;
+  float: right;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 20px;
+  border: 1.5px solid black;
+  background-image: url(https://lh3.googleusercontent.com/-roTbafaqu7Y/WKSf-Wtbz-I/AAAAAAACe0k/mYZwi0yxV00kZb71PvpGXlp_WMFZJxw9QCJoC/w434-h640/Teleskop%2BCiptaan%2BGalileo%2BGalilei.jpg);
+  background-position: center;
+}
+
+#picture4{
+  width: 20vw;
+  height: 70vh;
+  background-color: #794F29;
+  float: right;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 20px;
+  border: 1.5px solid black;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Marcello_Venusti_Juicio_Universal_Tempera_Grassa_sobre_tabla_1549_Museo_di_Capodimonte.jpg/350px-Marcello_Venusti_Juicio_Universal_Tempera_Grassa_sobre_tabla_1549_Museo_di_Capodimonte.jpg);
+  background-position: center;
+}
 
 /* Sidebar effekterna */
 #sidebar a{
@@ -148,7 +186,7 @@ body{
   height: 8vh;
   background-color: grey;
   float: right;
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
   color: #fcfcee;
 }
