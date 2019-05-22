@@ -11,6 +11,9 @@ body{
   background-attachment: fixed;
 }
 
+#titles{
+  color: black;
+}
 
 /*Det här är logo som är top bilden och vad hemsidan är för något */
 #logo{
