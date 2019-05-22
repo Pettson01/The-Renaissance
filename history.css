@@ -115,7 +115,7 @@ body{
 
 #humanism p{ /* Texten i humanism diven */
   display: inline;
-  background-color: black;
+  background-color: grey;
   font-size: 22px;
   margin-top: 15px;
   margin-right: 100px;
