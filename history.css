@@ -114,13 +114,14 @@ body{
 }
 
 #humanism p{ /* Texten i humanism diven */
-  color: black;
+  display: inline;
+  background-color: black;
   font-size: 22px;
   margin-top: 15px;
   margin-right: 100px;
   margin-left: 30px;
   margin-bottom: 15px;
-  /*color: #fcfcee;*/
+  color: #fcfcee;
 }
 
 #footer{ /* Den gråa diven längst ner på hemsidan med info om bilderna */
