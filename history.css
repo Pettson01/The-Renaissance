@@ -91,7 +91,6 @@ body{
 }
 
 #humanism{ /* Andra diven med humanism texten */
-  color: black;
   width: 62.8vw;
   height: 79vh;
   background-color: #794F29;
@@ -115,6 +114,7 @@ body{
 }
 
 #humanism p{ /* Texten i humanism diven */
+  color: black;
   font-size: 22px;
   margin-top: 15px;
   margin-right: 100px;
