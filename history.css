@@ -12,7 +12,7 @@ body{
 }
 
 #logo{ /* Första diven längst upp på sidan */
-  width: 99vw; 
+  width: 99vw;
   height: 10vh;
   background-color: #a89e9a;
   font-size: 69px; /* Storlek på rubriken */
@@ -39,7 +39,7 @@ body{
   margin-left: 10px;
   border: 1.5px solid darkgreen;
   background-image: url(http://www2.oberlin.edu/amam/images/1944.34_000.jpg);
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: fixed; /* Detta gör så att sidebaren följer med när man scrollar upp eller nedåt */
   top: 94px; /* Samma sak som margin-top */
 }
