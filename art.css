@@ -14,6 +14,7 @@ body{
 
 /*Det här är logo som är top bilden och vad hemsidan är för något */
 #logo{
+  -webkit-text-stroke: 2px black;
   width: 98.9vw;
   height: 10vh;
   background-color: #a89e9a;

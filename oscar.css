@@ -11,6 +11,8 @@ body{ /* Generella egenskaper för body, bild och storlek på bilden */
 }
 
 #logo{ /* Generella egenskaper för header delen, texten och bilden som sitter där */
+  color: white;
+  -webkit-text-stroke: 2px black;
   width: 100vw;
   height: 10vh;
   border-radius: 7px;

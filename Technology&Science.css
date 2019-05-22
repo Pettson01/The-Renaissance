@@ -19,6 +19,7 @@ body{
 
 /*Rubriken på toppen av sidan*/
 #logo{
+  -webkit-text-stroke: 2px black;
   width: 100vw;
   height: 10vh;
   background-color: #a89e9a;
@@ -26,7 +27,7 @@ body{
   font-size: 69px;
   text-align: center;
   font-family: CharpentierRenRed-Oblique;
-  color: black;
+  color: white;
   padding-bottom: 10px;
   background-image: url(Bilder/topp_logo.jpg);
   background-size: cover;
